@@ -30,7 +30,7 @@ typedef enum
 } CelsState;
 
 /*
- * Displays cels on screen.
+ * Display cels on screen.
  */
 void 
 display_cels(int** cels, SDL_Surface* screen);
@@ -55,7 +55,7 @@ void
 update_neighborhood(int cel, int* neighborhood);
 
 /* 
- * Returns the new state of cel regarding the value of neighborhood 
+ * Return the new state of cel regarding the value of neighborhood 
  */
 int 
 live_cel(int cel, int neighborhood);

@@ -2,7 +2,7 @@
 
 This is a simple implementation of Conway's game of life in C using SDL1.2.
 
-Make sur you  have SDL1.2 installed by running:
+Make sure you have SDL1.2 installed by running:
 
 ```
 sudo apt-get install libsdl1.2-dev

@@ -1,7 +1,7 @@
 #include "game_of_life.h"
 
 /*
- * Displays cels on screen.
+ * Display cels on screen.
  */
 void 
 display_cels(int** cels, SDL_Surface* screen)
@@ -60,7 +60,7 @@ display_one_cel(int cel, int x, int y, SDL_Surface* screen)
 }
 
 /* 
- * Updates the state of the automaton.
+ * Update the state of the automaton.
  * That's a SDL timer callback function.
  */
 Uint32 
@@ -139,7 +139,7 @@ update_neighborhood(int cel, int* neighborhood)
 }
 
 /* 
- * Returns the new state of cel, depending on the value of neighborhood 
+ * Return the new state of cel, depending on the value of neighborhood 
  */
 int 
 live_cel(int cel, int neighborhood)
@@ -214,7 +214,7 @@ free_cels(int** cels, int** buffer, int size_x)
 }
 
 /* 
- * Helper function that colores one pixel. 
+ * Helper function that colors one pixel. 
  */
 void 
 set_pixel(SDL_Surface* surf, int x, int y, Uint32 color)
